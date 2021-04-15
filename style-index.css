@@ -1,0 +1,68 @@
+body{
+    background: #FE5B57;
+}
+nav{
+    background: white;
+    display: flex;
+    justify-content:space-around;/*espaço entre os links de navegação*/
+    width:60%;
+    align-items: center;/*centraliza o conteúdo na horizontal*/
+}
+header{
+    display: flex;
+    background: white;
+    justify-content: space-between;/*espaço entre a navegação e logo*/
+}
+h1{
+    display: flex;
+    justify-content: flex-end;/*posiciona o logo no fim da h1*/
+}
+h1 img{
+    width:70%;/*controla o tamanho da imagem*/
+}
+img{
+    border-radius: 30px;/*bordas da imagem*/
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+}
+a, h2{
+    color: #e99040;
+
+}
+.corpo-do-site{
+    width: 60%;
+    display: flex;/*deixa o conteúdo flexível*/
+    justify-content: center;/*deixa o conteudo centralizado na vertical*/
+    flex-direction: column;/*deixa o conteudo em coluna*/
+    align-items: center;
+}
+.corpo-do-site p{
+    color: FCFCFA;
+    font-size: 60px;
+    text-transform:uppercase;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+.pagina-lateral{
+    background-color: white;
+    border-radius: 30px;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-redondo{
+    padding: 10px;
+}
+.texto-loren{
+    text-align:center;
+}
+.conteiner{
+    display: flex;
+    background-color: #FE5B57;
+    justify-content: space-between;
+    margin: 30px;
+}
